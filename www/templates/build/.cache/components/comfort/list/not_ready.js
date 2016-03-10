@@ -1,0 +1,2 @@
+/*TMODJS:{"version":1,"md5":"ff641401be36bad8391ed5ef9842e6c4"}*/
+template('components/comfort/list/not_ready','<div style="text-align: center; margin-top: 100px;"> <h1>很抱歉，数据尚未准备好</h1> <p>ENOTREADY : 我们将尽快为您恢复服务</p> </div> ');

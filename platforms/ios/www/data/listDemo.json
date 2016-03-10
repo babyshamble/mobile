@@ -1,0 +1,47 @@
+{
+    "1": {
+        "aid": "1",
+        "type": "with-thumbnail",
+        "name": "中信银行：发挥集团性综合优势助力“一带一路”走向深化",
+        "brief": "测试文章简介",
+        "pubtime": "07/10 10:40",
+        "submap": "经济工作",
+        "thumbnail": "image/1.jpg"
+    },
+    "2": {
+        "aid": "2",
+        "type": "no-thumbnail",
+        "name": "港股跟随A股结束四连阴 恒生指数大幅反弹重上24000点",
+        "brief": "测试文章简介",
+        "pubtime": "07/09 21:13",
+        "submap": "中国",
+        "thumbnail": ""
+    },
+    "3": {
+        "aid": "3",
+        "type": "with-thumbnail",
+        "name": "购物中心儿童业态疯长 但这个生意也并不那么好做",
+        "brief": "测试文章简介",
+        "pubtime": "07/10 07:23",
+        "submap": "娱乐",
+        "thumbnail": "image/3.jpg"
+    },
+    "4": {
+        "aid": "4",
+        "type": "with-thumbnail",
+        "name": "海航将开北京至布拉格航班 今年已一口气开通五条国际航线",
+        "brief": "测试文章简介",
+        "pubtime": "07/10 06:55",
+        "submap": "天下",
+        "thumbnail": "image/1.jpg"
+    },
+    "5": {
+        "aid": "5",
+        "type": "with-thumbnail",
+        "name": "农村土改33个试点区县确定 今有3个试点征地制度改革",
+        "brief": "测试文章简介",
+        "pubtime": "07/10 07:00",
+        "submap": "地产",
+        "thumbnail": "image/2.jpg"
+    }
+}

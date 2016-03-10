@@ -1,0 +1,2 @@
+/*TMODJS:{"version":24,"md5":"c2c1ecf19ca7e283d6746d0e87bdf5d3"}*/
+template('views/department/department_file_less','<div class="department_title" id="department_file_title"></div> <div class="department_file_navi"> <div class="department_file_navi_main_less department_more" id="department_file_navi"> </div> </div> <div class="department_file_main" id="department_file_main"> </div> <div id="department_file_main_more" class="department_more file_more" childid="" dataid=""> 更多 + </div>');

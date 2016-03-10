@@ -1,0 +1,2 @@
+/*TMODJS:{"version":1,"md5":"fb87a61b54736b9ff77a9f7497f13994"}*/
+template('components/tv/player/text-with-pictures','<div id="screen-pictures-wrapper"> <div id="screen-picture-first" class="picture"></div> <div id="screen-picture-second" class="picture hide"></div> </div> ');

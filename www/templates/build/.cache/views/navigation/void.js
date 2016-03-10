@@ -1,0 +1,2 @@
+/*TMODJS:{"version":1,"md5":"21f201bf518bc761e835716a974d5897"}*/
+template('views/navigation/void','<div id="navigation-void" class="view-container view-navigation-panel"> <h1>请在结构体系中先选择一个分类</h1> <p>若要开始，请打开页面顶部的贫道面板</p> </div> ');

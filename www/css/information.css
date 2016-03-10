@@ -1,0 +1,157 @@
+#information_section .header-secondary {
+    display: block;
+    text-align: initial;
+    overflow: hidden;
+}
+
+#information-status {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 51px;
+
+    overflow: hidden;
+    z-index: -1;
+}
+
+#information-status.loading-system,
+#information-status.loading-list,
+#information-status.nocontent-system,
+#information-status.nocontent-list {
+    z-index: 20;
+}
+
+#information-status.loading-system,
+#information-status.nocontent-system {
+    top: 44px;
+}
+
+#information-status.loading-list,
+#information-status.nocontent-list {
+    top: 124px;
+}
+
+#information-status .information-statu {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+
+    opacity: 0;
+    background: #E4E4E4;
+    transition: .3s;
+    z-index: 1;
+}
+
+#information-status.loading-system #information-loading-system {
+    opacity: 1;
+    z-index: 2;
+}
+
+#information-status.loading-list #information-loading-list {
+    opacity: 1;
+    z-index: 2;
+}
+
+#information-status.nocontent-system #information-nocontent-system {
+    opacity: 1;
+    z-index: 2;
+}
+
+#information-status.nocontent-list #information-nocontent-list {
+    opacity: 1;
+    z-index: 2;
+}
+
+#information-loading-system>div,
+#information-loading-list>div,
+#information-nocontent-system>div,
+#information-nocontent-list>div {
+    position: absolute;
+    top: 20px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+
+    margin: auto;
+    height: 20%;
+
+    color: #666;
+    text-align: center;
+}
+
+#information-nocontent-list>div {
+    top: -20px;
+}
+
+#information-loading-system>div,
+#information-loading-list>div {
+    left: 50%;
+    margin-left: -9px;
+}
+
+#information-category {
+    overflow: hidden;
+    width: calc(100% - 30px);
+    overflow: hidden;
+}
+
+#information-category ul {
+    padding-left: 5px;
+    overflow: hidden;
+}
+
+#information-category li {
+    display: inline-block;
+    transition: .5s;
+}
+
+#information-category li.active {
+    font-size: 17px;
+	color: #FF0000;
+}
+
+#information_section article {
+    background: #E4E4E4;
+}
+
+
+/*******二级栏目样式***********/
+
+#information-header2 {
+    display: block;
+    text-align: initial;
+    overflow: hidden;
+    background: #ededed;
+    color: #000;
+    position: absolute;
+    left: 0;
+    top:84px;
+    width: 100%;
+    z-index: 10;
+    border-bottom: 1px solid #afafaf;
+}
+
+#information_section .information-mapstair2 {
+    width: calc(100% - 30px);
+    height: 40px;
+    overflow: hidden;
+}
+
+#information_section .control-group {
+    padding-left: 5px;
+    overflow: hidden;
+    height: 40px;
+    line-height: 40px;
+}
+
+#information-group2 li.active {
+    background:#F3E5DF;
+    color: #BD7272;
+}
+
+#information_section .header-secondary ~ article {
+    top: 120px;
+}

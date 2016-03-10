@@ -1,0 +1,23 @@
+{{if counter = 0}}{{/if}}
+{{each systems as system si}}
+{{if counter++}}{{/if}}
+<div class="header">{{system.name}}</div>
+<ul class="menu">
+    {{if counter2 = 0}}{{/if}}
+    {{each system.sites as site ssi}}
+    {{if counter2++}}{{/if}}
+    <li data-wid="{{site.id}}">
+        <a href="#web_section?wid={{site.id}}" target="section">{{site.name}}</a>
+    </li>
+    {{/each}}
+    
+    {{if counter2 === 0}}
+    <li>此分类下暂时没有数据</li>
+    {{/if}}
+</ul>
+{{/each}}
+{{if counter === 0}}
+<div id="web-aside-nodata">
+    <p>暂时没有数据</p>
+</div>
+{{/if}}

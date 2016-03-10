@@ -1,0 +1,2 @@
+/*TMODJS:{"version":30,"md5":"4d3ea4310c3249c29cc74f7989c34f43"}*/
+template('views/department/department_list_more','<div class="department_title" id="department_file_title"></div> <div class="department_file_navi"> <div class="department_file_navi_main_more" id="department_file_navi"> </div> <div id="department_file_navi_more"> +更多 </div> </div> <div class="department_file_main" id="department_file_main"> <div id="department_file_main_more"> +更多 </div> </div> ');

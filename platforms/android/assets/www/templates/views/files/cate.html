@@ -1,0 +1,8 @@
+{{if counter = 0}}{{/if}}
+{{each cates as category ci}}
+	<li class="square_item">
+		<div data-cid="{{category.id}}" data-end="{{category.end}}" >{{category.name}}
+		</div>
+		<i></i>
+	</li>
+{{/each}}

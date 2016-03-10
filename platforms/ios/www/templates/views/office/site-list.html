@@ -1,0 +1,15 @@
+{{each sites as item}}
+<li class="square_item" data-id="{{item.id}}">
+    <a href="#olist_section?lid={{item.id}}" data-target="section">
+       <table>
+            <tbody>
+                <tr>
+                    <td>
+                      	{{item.name}}
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </a>
+</li>
+{{/each}}

@@ -1,0 +1,11 @@
+{{each list as item ii}}
+
+    {{if item.type === 'thumbnail'}}
+        {{include './item-with-thumbnail' item}}
+    {{/if}}
+
+    {{if item.type === 'nothumbnail'}}
+        {{include './item-without-thumbnail' item}}
+    {{/if}}
+    
+{{/each}}

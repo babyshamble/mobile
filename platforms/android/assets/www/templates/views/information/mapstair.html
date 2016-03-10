@@ -1,0 +1,4 @@
+{{if counter = 0}}{{/if}}
+{{each mapstair as map mi}}
+<li {{if counter++ === 0}}class="active"{{/if}} data-mid="{{map.id}}" data-sid="{{map.sid}}" data-code="{{map.code}}">{{map.name}}</li>
+{{/each}}

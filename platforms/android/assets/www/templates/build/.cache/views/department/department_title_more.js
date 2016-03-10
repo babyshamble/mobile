@@ -1,0 +1,2 @@
+/*TMODJS:{"version":2,"md5":"82af255abc7571eda973c02a2af9fa8d"}*/
+template('views/department/department_title_more','<div class="department_title" id="department_file_title"></div> <div id="department_title_more"></div>');

@@ -1,0 +1,2 @@
+/*TMODJS:{"version":1,"md5":"d7ba867856eec208128d445fc1998572"}*/
+template('components/comfort/list/server_error','<div style="text-align: center; margin-top: 100px;"> <h1>很抱歉，服务器发生故障了</h1> <p>ESERVERFAIL : 我们将尽快为您恢复服务</p> </div> ');

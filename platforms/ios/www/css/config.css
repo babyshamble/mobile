@@ -1,0 +1,76 @@
+#app_config {
+	width: 200px;
+	height: 100%;
+	background: #333;
+}
+
+#app_config_list {
+    width: 180px;
+    height: 100%;
+    margin: 0 auto;
+
+    color: #fff;
+    font-size: 16px;
+}
+
+#app_config_list >div {
+	margin-top: 30px;
+	margin-left: 10px;
+}
+
+#app_config_list >ul {
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+#app_config_list #config_color_list,
+#app_config_list #config_font_list,
+#app_config_list #config_reader_list {
+	
+	width: 180px;
+    height: 30px;
+}
+
+#config_color_list .config_color_item {
+	width: 30px;
+	height: 30px;
+	float: left;
+	margin-left: 10px;
+}
+
+#config_color_list #config_color_blue {
+	background: #18599E;
+}
+
+#config_color_list #config_color_orange {
+	background: #AF4612;
+}
+
+#config_color_list #config_color_green {
+	background: #679D16;
+}
+
+#config_color_list #config_color_red {
+	background: #DD2425;
+}
+
+#config_font_list .config_font_item,
+#config_reader_list .config_reader_item {
+	width: 40px;
+	height: 40px;
+	float: left;
+	margin-left: 20px;
+}
+
+#config_font_list #config_font_big {
+	font-size: 18px;
+}
+
+#config_font_list #config_font_small {
+	font-size: 16px;
+	margin-top: 4px;
+}
+
+#app_config_list .active {
+    color: #538B11
+}

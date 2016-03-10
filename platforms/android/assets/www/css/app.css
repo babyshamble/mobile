@@ -1,0 +1,61 @@
+html,
+body {
+  /*  background: #DD2425;*/
+    overflow: hidden;
+}
+
+body {
+    position: relative;
+}
+
+#section_container {
+    background: #DDDDDD;
+    box-shadow: 0 0 5px 6px #bbb;
+}
+
+#loading-div {
+    position: absolute;
+    left: 50%;
+    top: 45%;
+}
+
+header {
+    border-bottom: none;
+}
+
+.header-secondary {
+    background: #fcfcfc;
+    color: #222;
+    font-size: 16px;
+	border-bottom: 1px solid #f0f0f0;
+}
+
+.header-secondary > .active {
+    background: #FFF;
+}
+
+article {
+    bottom: 50px;
+    font-size: 16px;
+}
+
+.control-group li {
+    border-radius: 0;
+    border: none;
+/*    width: 116px;*/
+}
+
+.control-group li:first-child {
+    border-radius: 0;
+    border: none;
+}
+
+.control-group li.active {
+/*    background: #CD7D7E;*/
+	font-size: 16px;
+	color: #FF0000;
+}
+
+footer {
+    font-size: 16px;
+}

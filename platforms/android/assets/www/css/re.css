@@ -1,0 +1,135 @@
+/*资讯
+*********************************/
+header {
+	background-color: #252525 !important;
+}
+
+nav {
+	background-color: #252525 !important;
+}
+
+article {
+	background-color: #252525 !important;
+}
+
+#article_section article {
+    background: #252525 !important;
+}
+
+footer {
+    border-top: 1px solid #424242;
+    background: #252525 !important;
+}
+
+footer > a > .icon {
+    color: #ccc !important;
+}
+
+footer > a {
+    color: #fff !important;
+}
+
+footer > a.active> i.icon{
+    color: #fff !important;
+}
+
+footer > a.active {
+    background-color: #383838  !important;
+}
+
+#article_section article {
+    background: #252525 !important;
+}
+
+.applist.card .list-item{
+	background: #252525;
+    border-bottom: 1px solid #313131 !important;
+}
+
+.applist.card .list-title {
+    color: #ECECEC !important;
+}
+
+/*网站
+*********************************/
+#header-secondary2{
+	background: #151515 !important;
+    color: #FFF !important;
+}
+
+#control-group2 li.active {
+    background: #5F5C5B !important;
+    color: #FFF !important;
+}
+
+.applist.big-thumbnail {
+    border-bottom: 1px solid #303030 !important;
+    background: #252525 !important;
+}
+
+.applist.big-thumbnail .list-title {
+    color: #FFF !important;
+}
+
+#article_section .article-title {
+    color: #fff !important;
+}
+
+#article_section .article-meta span {
+    color: #FFF !important;
+}
+
+#article_section .article-content {
+    color: #FFF !important;
+}
+
+.refresh-container {
+	background: #252525 !important;
+}
+
+.header-secondary {
+    border-bottom: 1px solid #424242;
+    color: #FFF !important;
+}
+
+/*办事
+*********************************/
+.square_item {
+	background: #8F9191 !important;
+}
+
+/*列表
+*********************************/
+
+/*辅助模板
+************************************/
+#web-nocontent-system,
+#web-nocontent-list,
+#web-nocontent-map,
+#web-loading-list,
+#web-loading-map,
+#office-loading-system,
+#office-nocontent-system,
+#article-loading,
+#article-nocontent,
+#olist-nocontent-system,
+#olist-status {
+	background: #252525 !important;
+	color: #FFF !important;
+}
+
+.list-item-foucs {
+    background-color: #3F4040 !important;
+}
+
+.applist.big-thumbnail .list-item {
+    border-bottom: 1px solid #3F4040;
+}
+
+#information-status .information-statu {
+    background: #252525 !important;
+}
+
+.list-item:active {
+    background: #3F4040 !important;
+}

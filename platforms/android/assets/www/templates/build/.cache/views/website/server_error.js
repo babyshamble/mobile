@@ -1,0 +1,2 @@
+/*TMODJS:{"version":1,"md5":"0a98a3f15caddc59a9fc7a61dea0ef4b"}*/
+template('views/website/server_error','<div id="website-server-error" class="view-container view-container-website"> <h1>很抱歉，服务器发生故障了</h1> <p>ESERVERFAIL : 我们将尽快为您恢复服务</p> </div> ');

@@ -1,0 +1,63 @@
+header .title {
+	font-size: 24px !important;
+}
+
+.header-secondary {
+	font-size: 20px !important;
+}
+
+footer > a{
+	font-size: 18px !important;
+}
+
+.applist.card .list-title {
+	font-size: 20px !important;
+}
+
+.list-thu-title {
+	font-size: 20px !important;
+}
+
+.applist.card .list-brief {
+	font-size: 16px !important;
+}
+
+#information-category li.active {
+    font-size: 20px !important;
+}
+
+#control-group1 li.active {
+	font-size: 20px !important;
+}
+
+.control-group li.active {
+   font-size: 20px !important;
+}
+
+#web_section .control-group {
+	font-size: 20px !important;
+}
+
+.article-inner {
+	font-size: 17px !important;
+}
+
+.applist.card .list-footprint span {
+	font-size: 14px !important;
+}
+
+.applist.big-thumbnail .list-item {
+	font-size: 17px !important;
+}
+
+#office-viewer .applist.square table {
+	font-size: 17px !important;
+}
+
+.article-content p {
+	font-size: 17px !important;
+}
+
+.square_item >li {
+	font-size: 24px !important;
+}

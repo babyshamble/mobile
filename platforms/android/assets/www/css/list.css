@@ -1,0 +1,213 @@
+.applist {
+    list-style: none;
+}
+
+/* 大图模式
+--------------------------------------------*/
+.applist.big-thumbnail .list-item {
+    padding: 26px 0;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.applist.big-thumbnail .list-item:active {
+    background: #f5f5f5;
+}
+
+.applist.big-thumbnail .list-thumbnail {
+    height: 110px;
+    margin-bottom: 10px;
+
+    background-size: cover;
+    background-position: center center;
+}
+
+.applist.big-thumbnail .list-item.nothumbnail .list-thumbnail {
+    display: none;
+}
+
+.applist.big-thumbnail .list-thumbnail::before {
+    display: inline-block;
+    content: "";
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHMAAAA5BAMAAAD3rgnfAAAAA3NCSVQICAjb4U/gAAAAMFBMVEX///////////////////////////////////////////////////////////////9Or7hAAAAAEHRSTlMAESIzRFVmd4iZqrvM3e7/dpUBFQAAAAlwSFlzAAALEgAACxIB0t1+/AAAABZ0RVh0Q3JlYXRpb24gVGltZQAwNy8xMC8xNY9rNZAAAAAcdEVYdFNvZnR3YXJlAEFkb2JlIEZpcmV3b3JrcyBDUzbovLKMAAAD8klEQVRIie2Wb2gbZRjA316O9tJrl0P7xX9bhA0HYldEZTCktxDoKkj2RZyIJMEq031opjCGCj2l3QJxvYJDxuxs9nlg70OZhVgyVHAbaDoEPzgwzg+CoNy5ZTFpcvf43Pvev6wJ5L73CQn3vM/7e58/7/O+OUK6CpfoPt6HDDeD2thEr3mjjU5dyBDxfnBAtZQe6OR/D+g1Eqs/HEQh1wNV73TqqRpJmXoHKvVAdSUS70AbZ1bB7EA7geeO5xcoMQgXdS1geKECKMFkVZjKv+9p+6m9ZZdOxIdr/rxhHF7Erz8SWbXnrjGF+xTg+sw0gGLHB9CUyMHS5ywhAWDrqTJ85oLcazrA7Q2Ay1TdDWaWm5LLYHstnzOfPX0J1/2TzT2twyw0F51Axm2PmGsF2BamYGm6Cr+nafqnRKuKjldhi9pGAKy3caDG0Ekw31OxZmX4juqz7UlcqjgJbto65PbALWqLmrab9vxJho5CkaiYuN5m+agNTPCqFEOU+wgn/rALnlwBmU1+CZpXqj+7qQpYD0QPwj2n2nVehS+KMcx1DqBqnonChlvTQwC5dwFclgMNNwcrlXHQ2vMqgBFDR3Ot7EoV3kTXTifrreUvfc2O8JJTKabes5UlG33saGQrCsqKV+DFGYAf8+A15zAFnRoi+i2AuaqN0qWeuUveOPoo6ywa4t9XoO3Gh6puVtqekajFiXQr1RBtlNcNwh3Jy54R07dWAi38ajwVaC1V4e1GLNjorJX9AKtg+sc5/ddb1Tp/2J+eChxotUDj/9BGj2UFMC/o7tag7MU2/eMAtL3FYgG0PHdjPikRkZVNgJmP5yzPmMCGOFuP6LTBt6PoIpJMeCjU/HSEu/+cgouQeTyA1gLo5amvMOBhFzVP+mj62gbR4cb9gUp3lO3VEYYOWRnioZyuqHG1/ZAlDU10Q1WrtCCRvQJDebOgeOgI5NLFwQzxfXaiL9Mbbn2RoRxAXXXRXSDvacbJPv1Od5TJLDg3XfVX1btQBk7EozSbQFVT29BIxdnMJF5tgYYZOBdsWtvHA3c8ypAuu4+HtoKGffn8Qo9ucoX3H2e2W3dkR3YklDinCK8ZjR694/2j6/R3bPr8YWPZvkcKodBSSdtfWP/EiGqhUPzr1WpJgwgK2SSSUCr9hgv1ya4JmkEMdlm3xPPJ5eSUEQolT0gE37NEBQPmw6EnfipdXRNy4dDvKcpvKuTsbjlcwP8KRURH5muJdy4Q8TaW6Zs+UX5TUBAV8o358VtkUMaAOaU/NLok2ighRuJA5hgJs6/j8oiCb1WvV82vb2r5UGjp6UocvY5JxouZm7+EQrN8gsj4Idor5JFiT/R/5o46iahqWDQAAAAASUVORK5CYII=) center center no-repeat #E8E8E8;
+    background-size: 80px;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+
+    transition: .5s;
+}
+
+.applist.big-thumbnail .list-item.ready .list-thumbnail::before {
+    opacity: 0;
+}
+
+.applist.big-thumbnail .list-content {
+    margin-left: 10px;
+}
+
+.applist.big-thumbnail .list-title {
+    color: #333;
+    font-weight: normal;
+    line-height: 30px;
+    margin: 0;
+}
+
+.applist.big-thumbnail .list-brief {
+    display: none;
+}
+
+.applist.big-thumbnail .list-footprint {
+    margin-left: 10px;
+}
+
+.applist.big-thumbnail .list-footprint span {
+    color: #AAA;
+    line-height: 20px;
+}
+
+
+/* 卡片模式
+--------------------------------------------*/
+
+.applist.card .list-item {
+    margin: 10px;
+    padding: 10px;
+    background: #FFF;
+    box-shadow: 0 0 5px 1px #999;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.applist.card .list-item>a {
+}
+
+.applist.card .list-item:active {
+    background: #f5f5f5;
+}
+
+.applist.card .list-thumbnail {
+    float: left;
+    width: 84px;
+    height: 84px;
+
+    background-size: cover;
+    background-position: center center;
+}
+
+.applist.card .list-item.nothumbnail .list-thumbnail {
+    display: none;
+}
+
+.applist.card .list-thumbnail::before {
+    display: inline-block;
+    content: "";
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHMAAAA5BAMAAAD3rgnfAAAAA3NCSVQICAjb4U/gAAAAMFBMVEX///////////////////////////////////////////////////////////////9Or7hAAAAAEHRSTlMAESIzRFVmd4iZqrvM3e7/dpUBFQAAAAlwSFlzAAALEgAACxIB0t1+/AAAABZ0RVh0Q3JlYXRpb24gVGltZQAwNy8xMC8xNY9rNZAAAAAcdEVYdFNvZnR3YXJlAEFkb2JlIEZpcmV3b3JrcyBDUzbovLKMAAAD8klEQVRIie2Wb2gbZRjA316O9tJrl0P7xX9bhA0HYldEZTCktxDoKkj2RZyIJMEq031opjCGCj2l3QJxvYJDxuxs9nlg70OZhVgyVHAbaDoEPzgwzg+CoNy5ZTFpcvf43Pvev6wJ5L73CQn3vM/7e58/7/O+OUK6CpfoPt6HDDeD2thEr3mjjU5dyBDxfnBAtZQe6OR/D+g1Eqs/HEQh1wNV73TqqRpJmXoHKvVAdSUS70AbZ1bB7EA7geeO5xcoMQgXdS1geKECKMFkVZjKv+9p+6m9ZZdOxIdr/rxhHF7Erz8SWbXnrjGF+xTg+sw0gGLHB9CUyMHS5ywhAWDrqTJ85oLcazrA7Q2Ay1TdDWaWm5LLYHstnzOfPX0J1/2TzT2twyw0F51Axm2PmGsF2BamYGm6Cr+nafqnRKuKjldhi9pGAKy3caDG0Ekw31OxZmX4juqz7UlcqjgJbto65PbALWqLmrab9vxJho5CkaiYuN5m+agNTPCqFEOU+wgn/rALnlwBmU1+CZpXqj+7qQpYD0QPwj2n2nVehS+KMcx1DqBqnonChlvTQwC5dwFclgMNNwcrlXHQ2vMqgBFDR3Ot7EoV3kTXTifrreUvfc2O8JJTKabes5UlG33saGQrCsqKV+DFGYAf8+A15zAFnRoi+i2AuaqN0qWeuUveOPoo6ywa4t9XoO3Gh6puVtqekajFiXQr1RBtlNcNwh3Jy54R07dWAi38ajwVaC1V4e1GLNjorJX9AKtg+sc5/ddb1Tp/2J+eChxotUDj/9BGj2UFMC/o7tag7MU2/eMAtL3FYgG0PHdjPikRkZVNgJmP5yzPmMCGOFuP6LTBt6PoIpJMeCjU/HSEu/+cgouQeTyA1gLo5amvMOBhFzVP+mj62gbR4cb9gUp3lO3VEYYOWRnioZyuqHG1/ZAlDU10Q1WrtCCRvQJDebOgeOgI5NLFwQzxfXaiL9Mbbn2RoRxAXXXRXSDvacbJPv1Od5TJLDg3XfVX1btQBk7EozSbQFVT29BIxdnMJF5tgYYZOBdsWtvHA3c8ypAuu4+HtoKGffn8Qo9ucoX3H2e2W3dkR3YklDinCK8ZjR694/2j6/R3bPr8YWPZvkcKodBSSdtfWP/EiGqhUPzr1WpJgwgK2SSSUCr9hgv1ya4JmkEMdlm3xPPJ5eSUEQolT0gE37NEBQPmw6EnfipdXRNy4dDvKcpvKuTsbjlcwP8KRURH5muJdy4Q8TaW6Zs+UX5TUBAV8o358VtkUMaAOaU/NLok2ighRuJA5hgJs6/j8oiCb1WvV82vb2r5UGjp6UocvY5JxouZm7+EQrN8gsj4Idor5JFiT/R/5o46iahqWDQAAAAASUVORK5CYII=) center center no-repeat #E8E8E8;
+    background-size: 80px;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+
+    transition: .5s;
+}
+
+.applist.card .list-item.ready .list-thumbnail::before {
+    opacity: 0;
+}
+
+.applist.card .list-content {
+    padding-left: 100px;
+}
+
+.applist.card .list-item.nothumbnail .list-content {
+    padding: 0;
+}
+
+.applist.card .list-title {
+    color: #333;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 30px;
+    height: 30px;
+    overflow: hidden;
+    margin: 0;
+}
+
+.applist.card .list-brief {
+    color: #888;
+    line-height: 18px;
+    height: 38px;
+    overflow: hidden;
+    font-weight: normal;
+    margin: 0;
+	font-size: 14px;
+}
+
+.applist.card .list-item.nothumbnail .list-brief {
+    max-height: 54px;
+}
+
+.applist.card .list-footprint {
+    margin-top: 10px;
+}
+
+.applist.card .list-item.nothumbnail .list-footprint {
+    margin: 0;
+}
+
+.applist.card .list-footprint span {
+    display: inline-block;
+    color: #BBB;
+    font-size: 13px;
+    line-height: 20px;
+    height: 20px;
+    overflow: hidden;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+
+/**
+***************************方格模式***************************
+***/
+
+.applist.square .square_item {
+    height: 50px;
+    width: 90%;
+    margin: 20px auto;
+    
+    cursor: pointer;
+}
+
+.applist.square  .square_item:active {
+    width: calc(90% + 10px);
+    height: 60px;
+    border: 5px solid #FBDADA;
+}
+
+.square_item >div {
+    height: 50px;
+    width: calc(80% - 20px);
+    float: left;
+    text-align: left;
+    line-height: 50px;
+    margin-left: 20px;
+    color: #fff;
+    font-size: 18px;
+
+    white-space:nowrap; 
+    overflow:hidden; 
+    text-overflow:ellipsis;
+}
+
+.square_item >i {
+    height: 50px;
+    width: 20%;
+    float: left;
+    background-image: url(../image/right.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 50% 50%;  
+}
+
+.list-item-foucs {
+    background-color: #EDD3CC !important;
+}

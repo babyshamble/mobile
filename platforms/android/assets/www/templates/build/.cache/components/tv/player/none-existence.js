@@ -1,0 +1,2 @@
+/*TMODJS:{"version":1,"md5":"7f8ef4e6225dd5d238a5576af94f965b"}*/
+template('components/tv/player/none-existence','<div id="tv2-none" class="tv2screen-hint"> <h1>很抱歉，此文章尚未准备就绪</h1> <p>我们正在获取该文章，我们会很快为您恢复服务</p> </div> ');

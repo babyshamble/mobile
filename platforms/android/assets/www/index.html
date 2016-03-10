@@ -1,0 +1,107 @@
+<!DOCTYPE >
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>信息公共服务平台</title>
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <meta http-equiv="Content-Security-Policy" content="default-src *; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'">
+
+        <link rel="stylesheet" href="css/Jingle.css">
+        <link rel="stylesheet" href="css/loaders.css">
+        <link rel="stylesheet" href="css/app.css">
+        <link rel="stylesheet" href="css/web.css">
+        <link rel="stylesheet" href="css/information.css">
+        <link rel="stylesheet" href="css/files.css">
+        <link rel="stylesheet" href="css/affairs.css">
+        <link rel="stylesheet" href="css/launch.css">
+        <link rel="stylesheet" href="css/webaside.css">
+        <link rel="stylesheet" href="css/home.css"> 
+        <link rel="stylesheet" href="css/reader.css">
+        <link rel="stylesheet" href="css/list.css">
+        <link rel="stylesheet" href="css/search.css">
+        <link rel="stylesheet" href="css/config.css">
+        <link rel="stylesheet" href="css/article.css">
+        <link rel="shortcut icon" href="favicon.ico">
+    </head>
+
+    <body>
+        <div id="aside_container">
+            <aside id="aside_web_system" data-position="left" data-transition="push">
+                <div class="center" id="web-sites-list"></div>
+            </aside>
+
+            <aside id="app_config" data-position="right" data-transition="push">
+                <div class="center" id="app_config_list"></div>
+            </aside>
+        </div>
+
+        <div id="section_container">
+        
+        </div>
+        
+        <!-- 网站配置 谨慎操作-->
+        <div id="yx_config" style="display:none;">
+            <a href="http://wza.xinhuanet.com/yxsm/index.php?m=api&a=load&n=os&tid=1&sid=1" target="_blank" id="yx_recodownload">yx_recodownload</a>
+
+            <!-- sid lid tid -->
+            <a href="#" id="yx_sid">1352</a>
+            <a href="#" id="yx_lid">494</a>
+            <a href="#" id="yx_tid"></a>
+            
+            <!-- 语音配置 -->
+            <a href="http://210.76.72.39/yxsm/cache/voices/voices1/" id="yx_voicespath">voices</a>
+            <a href="http://210.76.72.39/yxsm/index.php?m=socket&a=get" id="yx_socketpath">socket</a>
+            
+            <!-- 数据配置 BC -->
+            <a href="http://wza.beijing.gov.cn/cniil1/yxsm/index.php?m=translate&a=get" id="yx_translatepath">translate</a>
+            <a href="http://wza.beijing.gov.cn/cniil1/yxsm/index.php?m=logger&a=struct" id="yx_logpath">logger</a>
+            <a href="http://wza.beijing.gov.cn/cniil1/yxsm/index.php?m=suggest&a=index" id="yx_suggestpath">suggest</a>
+            <a href="http://wza.beijing.gov.cn/cniil1/yxsm/index.php?m=proxy&a=show&q_url=" id="yx_proxyurl">proxy</a>
+
+            <a href="http://wza.beijing.gov.cn/cniil1/yxsm/index.php?m=app&a=" router="scate" id="yx_cateurl">siteurl</a>
+            <a href="http://wza.beijing.gov.cn/cniil1/yxsm/index.php?m=app&a=" router="smap" id="yx_mapurl">mapurl</a>
+            <a href="http://wza.beijing.gov.cn/cniil1/yxsm/index.php?m=app&a=" router="slist" id="yx_listurl"></a>
+            <a href="http://wza.beijing.gov.cn/cniil1/yxsm/index.php?m=app&a=" router="sart" id="yx_arturl">proxy</a>
+            <a href="http://wza.beijing.gov.cn/cniil1/yxsm/index.php?m=app&a=" router="smore" id="yx_moreurl"></a>
+            <a href="http://wza.beijing.gov.cn/cniil1/yxsm/index.php" id="yx_searchurl"></a>
+            
+            <!-- 数据配置 QJ -->
+            <a href="http://192.168.1.253/yxsm/index.php?m=apim2&a=" router="scate" orc="sgcate" id="yx_cateurl">siteurl</a>
+            <a href="http://192.168.1.253/yxsm/index.php?m=apim2&a=" router="slist" id="yx_listurl"></a>
+            <a href="http://192.168.1.253/yxsm/index.php?m=apim2&a=" router="smore" id="yx_moreurl"></a>
+            <a href="http://192.168.1.253/yxsm/index.php?m=apim2&a=" router="sart" id="yx_arturl">proxy</a>
+            
+            <!-- 欢迎页标题配置 -->
+            <div id="launch-name">新疆维吾尔自治区</div>
+        </div>
+        <!-- 网站配置 谨慎操作-->
+
+        <script src="js/lib/promise-6.1.0.js"></script>
+        <script src="js/lib/zepto.js"></script>
+        <script src="js/lib/Speaker.all.js"></script>
+        <script src="js/lib/iscroll.js"></script>
+        <script src="js/lib/Jingle.js"></script>
+        <script src="js/lib/zepto.touch2mouse.js"></script>
+        <script src="js/lib/JChart.js"></script>
+        <script src="js/YDAPI/scripts/YDAPI.js"></script>
+        <script src="js/YRAPI.js"></script>
+        <script src="js/dataline.js"></script>
+
+        <script src="js/app/util.js"></script>
+        <script src="js/app/load.js"></script>
+        <script src="js/app/config.js"></script>
+        <script src="js/app/theme.js"></script>
+        <script src="templates/build/template.js"></script>
+        <script src="js/lib/Reader.js"></script>
+        <script src="js/app/app.js"></script>
+        <script src="js/app/launch.js"></script>
+        <script src="js/app/web.js"></script>
+        <script src="js/app/information.js"></script>
+        <script src="js/app/files.js"></script>
+        <script src="js/app/affairs.js"></script>
+        <script src="js/app/article.js"></script>
+        <script src="js/app/search.js"></script>
+    </body>
+</html>

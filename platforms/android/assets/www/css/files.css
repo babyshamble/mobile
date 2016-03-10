@@ -1,0 +1,158 @@
+#files_section .header-secondary {
+    display: block;
+    text-align: initial;
+    overflow: hidden;
+}
+
+#files-status {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 51px;
+
+    overflow: hidden;
+    z-index: -1;
+}
+
+#files-status .files-statu {
+    position: absolute;
+    left: 0;
+    top: 24px;
+    right: 0;
+    bottom: 0;
+
+    opacity: 0;
+    background: #E4E4E4;
+    transition: .3s;
+    z-index: 1;
+}
+
+#files-status.files-loading,
+{
+    top: 44px;
+}
+
+#files-status.nocontent-system {
+    top: 20px;
+}
+
+#files-status.files-loading,
+#files-status.nocontent-list {
+    top: 78px;
+}
+
+
+
+#files-status.files-loading #files-loading {
+    opacity: 1;
+    z-index: 2;
+    top: 8px;
+}
+
+#files-status.nocontent-system #files-nocontent-system {
+    opacity: 1;
+    z-index: 2;
+}
+
+#files-status.nocontent-list #files-nocontent-list {
+    opacity: 1;
+    z-index: 2;
+    top: 10px;
+}
+
+#files-loading>div,
+#files-nocontent-system>div,
+#files-nocontent-list>div {
+    position: absolute;
+    top: -60px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+
+    margin: auto;
+    height: 20%;
+
+    color: #666;
+    text-align: center;
+}
+
+#files-nocontent-system>div {
+    top: 0;
+}
+
+#files-nocontent-list>div {
+    top: 10px;
+}
+
+#files-loading>div {
+    top: 0;
+}
+
+#files-loading>div {
+    left: 50%;
+    margin-left: -9px;
+}
+
+#files-status.files-loading,
+#files-status.nocontent-system,
+#files-status.nocontent-list {
+    z-index: 20;
+}
+
+#files-category {
+    overflow: hidden;
+    width: calc(100% - 30px);
+    overflow: hidden;
+}
+
+#files-category ul {
+    padding-left: 5px;
+    overflow: hidden;
+}
+
+#files-category li {
+    display: inline-block;
+    transition: .5s;
+}
+
+#files-category li.active {
+    font-size: 17px;
+    color: #FF0000;
+}
+
+#files_section article {
+    background: #E4E4E4;
+}
+
+
+/*******二级栏目样式***********/
+
+#files-mapstair-nav {
+    display: block;
+    text-align: initial;
+    overflow: hidden;
+    background: #ededed;
+    color: #000;
+    position: absolute;
+    left: 0;
+    top:84px;
+    width: 100%;
+    z-index: 10;
+    border-bottom: 1px solid #afafaf;
+}
+
+#files_section .files-mapstair {
+    width: calc(100% - 30px);
+    height: 40px;
+    overflow: hidden;
+}
+
+#files-group li.active {
+    background:#F3E5DF;
+    color: #BD7272;
+}
+
+#files_section .header-secondary ~ article {
+    top: 84px;
+}

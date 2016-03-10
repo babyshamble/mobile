@@ -1,0 +1,2 @@
+/*TMODJS:{"version":1,"md5":"780971711934643217fd2e5941b9393e"}*/
+template('views/search/search','<iframe src="http://192.168.1.114/search/?ctl=search&act=index&keyword=%E7%BE%8E%E4%B8%BD%E5%AE%B6%E5%9B%AD%E7%BE%8E%E4%B8%BD%E8%93%9D%E5%9B%BE%E6%B0%91%E8%BF%9B%E9%82%B5%E9%98%B3%E5%B8%82%E5%A7%94%E5%80%A1%E8%AE%AE%E4%B8%9C%E9%83%A8%E5%9F%8E%E5%B8%82%E7%BE%A4%E4%B8%80%E4%BD%93%E5%8C%96%E5%BB%BA%E8%AE%BE"></iframe> ');

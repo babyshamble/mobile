@@ -1,0 +1,2 @@
+/*TMODJS:{"version":1,"md5":"eece0a2923561d208c52e57ecd1b9814"}*/
+template('views/navigation/none_existence','<div id="navigation-none-existence" class="view-container view-navigation-panel"> <h1>很抱歉，您选择的分类导航并不存在</h1> <p>请您在频道面板中重新选择需要的导航数据</p> </div> ');

@@ -1,0 +1,51 @@
+html,
+body {
+  /*  background: #DD2425;*/
+    overflow: hidden;
+}
+
+body {
+    position: relative;
+}
+
+#section_container {
+    background: red;
+}
+
+header {
+    border-bottom: none;
+}
+
+.header-secondary {
+    background: #DD2425;
+    color: #FFF;
+    font-size: 16px;
+}
+
+.header-secondary > .active {
+    background: #FFF;
+}
+
+article {
+    bottom: 50px;
+    font-size: 16px;
+}
+
+.control-group li {
+    border-radius: 0;
+    border: none;
+    width: 116px;
+}
+
+.control-group li:first-child {
+    border-radius: 0;
+    border: none;
+}
+
+.control-group li.active {
+    background: #CD7D7E;
+}
+
+footer {
+    font-size: 16px;
+}

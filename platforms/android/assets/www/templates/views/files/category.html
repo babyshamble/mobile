@@ -1,0 +1,4 @@
+{{if counter = 0}}{{/if}}
+{{each systems as category ci}}
+<li{{if counter++ === 0}} class="active"{{/if}} data-cid="{{category.id}}" data-end="{{category.end}}">{{category.name}}</li>
+{{/each}}

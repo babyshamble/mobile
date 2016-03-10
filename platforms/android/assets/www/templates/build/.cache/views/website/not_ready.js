@@ -1,0 +1,2 @@
+/*TMODJS:{"version":1,"md5":"3f0eb3cceb2bf527da3573a5207b3126"}*/
+template('views/website/not_ready','<div id="website-not-ready" class="view-container view-container-website"> <h1>很抱歉，这个站点尚未准备好</h1> <p>ENOTREADY : 我们将尽快为您恢复服务</p> </div> ');

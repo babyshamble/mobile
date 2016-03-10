@@ -1,0 +1,102 @@
+*{
+    padding: 0px;margin: 0px;
+    font-size: 18px;
+    font-family: "microsoft yahei";
+}
+body{
+    background: #9a1616;
+}
+#header{
+    width: 1280px;
+    height: 100px;
+
+}
+#header .title{
+    float: left;
+    width: 500px;
+    margin: 20px 0px 0px 20px;
+}
+#header .navi{
+    float: right;
+
+}
+#header .navi ul{
+    height: 100px;
+    margin-top: 60px;
+    color: #fff;
+
+}
+#header .navi li{
+    margin: 0px 20px 0px 20px;
+    display: inline-block;
+}
+#header .navi li a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+/*#contain_section_1{*/
+    /*position: absolute;top: 120px;left: 0px;*/
+/*}*/
+#section1{
+    position: absolute;top: 150px;left: 50%;margin-left: -600px;
+    width: 1200px;
+    height: 450px;
+    /*background: #000;*/
+    overflow-x: auto;
+    /*display: block;*/
+}
+#section2{
+    position: absolute;top: 150px;left: 50%;margin-left: -600px;
+    width: 1200px;
+    height: 450px;
+    /*background: #000;*/
+    overflow-x: auto;
+
+}
+#section3{
+    position: absolute;top: 150px;left: 50%;margin-left: -600px;
+    width: 1200px;
+    height: 450px;
+    overflow: auto;
+
+}
+#section4{
+    position: absolute;top: 150px;left: 50%;margin-left: -600px;
+    width: 1200px;
+    height: 450px;
+    overflow: auto;
+
+}
+
+.page_contain{
+    width: 1200px;
+    /*height: 450px;*/
+}
+.page_block{
+    width: 18.8%;
+    height: 150px;
+    float: left;
+    margin: 10px 10px 10px 10px;
+    text-decoration: none;
+    text-align: center;
+    border: 1px solid transparent;
+    color: #ffffff;
+}
+
+.page_block a{
+display:block;
+    /*padding-top: 70px;*/
+    height: 150px;
+   padding-top:60px;
+    text-decoration: none;
+    /*vertical-align: middle;*/
+    text-align: center;
+    color: #ffffff;
+}
+
+.page_block:hover{
+    /*width: 19%;*/
+    border: 1px solid #ffffff;
+   cursor: pointer;
+}

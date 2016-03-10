@@ -1,0 +1,2 @@
+/*TMODJS:{"version":5,"md5":"ea5c01791cb42ca88b4db331b2ab9bd4"}*/
+template('views/navigation/normal','<i class="icons-navigation icons-navigation-prev"></i> <i class="icons-navigation icons-navigation-next"></i> <div id="navigation-matrix"></div> <div id="metro-article"></div> <div id="navigation-more"></div> ');

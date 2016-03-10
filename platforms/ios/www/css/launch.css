@@ -1,0 +1,14 @@
+.launchimg{
+	background-image:url(../image/launch.jpg);
+	width: 100%;
+	height: 100%;
+	background-repeat: no-repeat; 
+  	-webkit-background-size: 100% 100%;
+}
+.launchbutton{
+	width: 35%;
+	height: 10%;
+	position: absolute;
+	left:35%;
+	top:55%;
+}

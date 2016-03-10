@@ -1,0 +1,2 @@
+/*TMODJS:{"version":10,"md5":"4b026288393d30dc0746b07eb15276b6"}*/
+template('views/department/department_list_less','<div class="department_title" id="department_file_title"></div> <div class="department_file_navi"> <div class="department_file_navi_main_less" id="department_file_navi"> </div> </div> <div class="department_file_main" id="department_file_main"> </div>');

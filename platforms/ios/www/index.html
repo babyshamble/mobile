@@ -1,0 +1,110 @@
+<!DOCTYPE >
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>信息(无障碍)公共服务平台</title>
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <meta http-equiv="Content-Security-Policy" content="default-src *; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'">
+
+        <link rel="stylesheet" href="css/Jingle.css">
+        <link rel="stylesheet" href="css/loaders.css">
+        <link rel="stylesheet" href="css/app.css">
+        <link rel="stylesheet" href="css/launch.css">
+        <link rel="stylesheet" href="css/web.css">
+        <link rel="stylesheet" href="css/article.css">
+        <link rel="stylesheet" href="css/information.css">
+        <link rel="stylesheet" href="css/webaside.css">
+        <link rel="stylesheet" href="css/text.css">
+        <link rel="stylesheet" href="css/office.css">
+        <link rel="stylesheet" href="css/olist.css">
+        <link rel="stylesheet" href="css/home.css">
+        <link rel="stylesheet" href="css/reader.css">
+        <link rel="stylesheet" href="css/list.css">
+        <link rel="stylesheet" href="css/config.css">
+        <link rel="shortcut icon" href="favicon.ico">
+    </head>
+
+    <body>
+        <div id="aside_container">
+            <aside id="aside_web_system" data-position="left" data-transition="push">
+                <div class="center" id="web-sites-list"></div>
+            </aside>
+
+            <aside id="app_config" data-position="right" data-transition="push">
+                <div class="center" id="app_config_list"></div>
+            </aside>
+        </div>
+
+        <div id="section_container">
+           
+        </div>
+
+        <!-- 语音配置部分 -->
+        <!-- <div id="yx_config" style="display:none;">
+            <a href="http://wza.xinhuanet.com/yxsm/index.php?m=api&a=load&n=os&tid=1&sid=1" target="_blank" id="yx_recodownload">yx_recodownload</a>
+            <a href="#" id="yx_sid">12342</a>
+            <a href="#" id="yx_lid">43</a>
+            <a href="#" id="yx_tid"></a>
+            <a href="/yxsm/cache/voices/voices1/" id="yx_voicespath">voices</a>
+            <a href="/yxsm/index.php?m=socket&a=get" id="yx_socketpath">socket</a>
+            <a href="http://wza.csip.org.cn/yxsm/index.php?m=translate&a=get" id="yx_translatepath">translate</a>
+            <a href="/yxsm/index.php?m=logger&a=struct" id="yx_logpath">logger</a>
+            <a href="/yxsm/index.php?m=suggest&a=index" id="yx_suggestpath">suggest</a>
+            <a href="/yxsm/index.php?m=proxy&a=show&q_url=" id="yx_proxyurl">proxy</a>
+            <a href="http://192.168.1.251/yxsm/index.php?m=apim&a=" router="ncate" id="yx_cateurl">siteurl</a>
+            <a href="http://192.168.1.251/yxsm/index.php?m=apim&a=" router="nmap" id="yx_mapurl">mapurl</a>
+            <a href="http://192.168.1.251/yxsm/index.php?m=apim&a=" router="nhot" id="yx_hoturl">hoturl</a>
+            <a href="http://192.168.1.251/yxsm/index.php?m=apim&a=" router="nlist" id="yx_listurl"></a>
+            <a href="http://192.168.1.251/yxsm/index.php?m=apim&a=" router="nart" id="yx_arturl">proxy</a>
+            <a href="http://192.168.1.251/yxsm/index.php?m=apim&a=" router="nmore" id="yx_moreurl"></a>
+        </div>
+ -->
+
+        <div id="yx_config" style="display:none;">
+            <a href="http://wza.xinhuanet.com/yxsm/index.php?m=api&a=load&n=os&tid=1&sid=1" target="_blank" id="yx_recodownload">yx_recodownload</a>
+            <a href="#" id="yx_sid"></a>
+            <a href="#" id="yx_lid">6</a>
+            <a href="#" id="yx_tid"></a>
+
+            <a href="/yxsm/cache/voices/voices1/" id="yx_voicespath">voices</a>
+            <a href="/yxsm/index.php?m=socket&a=get" id="yx_socketpath">socket</a>
+            <a href="http://wza.csip.org.cn/yxsm/index.php?m=translate&a=get" id="yx_translatepath">translate</a>
+            <a href="/yxsm/index.php?m=logger&a=struct" id="yx_logpath">logger</a>
+            <a href="/yxsm/index.php?m=suggest&a=index" id="yx_suggestpath">suggest</a>
+            <a href="/yxsm/index.php?m=proxy&a=show&q_url=" id="yx_proxyurl">proxy</a>
+
+            <a href="http://wza.fmprc.gov.cn/yxsm/index.php?m=apim2&a=" router="ncate" id="yx_cateurl">siteurl</a>
+            <a href="http://wza.fmprc.gov.cn/yxsm/index.php?m=apim2&a=" router="nmap" id="yx_mapurl">mapurl</a>
+            <a href="http://wza.fmprc.gov.cn/yxsm/index.php?m=apim2&a=" router="nhot" id="yx_hoturl">hoturl</a>
+            <a href="http://wza.fmprc.gov.cn/yxsm/index.php?m=apim2&a=" router="nlist" id="yx_listurl"></a>
+            <a href="http://wza.fmprc.gov.cn/yxsm/index.php?m=apim2&a=" router="nart" id="yx_arturl">proxy</a>
+            <a href="http://wza.fmprc.gov.cn/yxsm/index.php?m=apim2&a=" router="nmore" id="yx_moreurl"></a>
+        </div>
+
+            <script src="js/lib/promise-6.1.0.js"></script>
+            <script src="js/lib/zepto.js"></script>
+            <script src="js/lib/Speaker.all.js"></script>
+            <script src="js/lib/iscroll.js"></script>
+            <script src="js/lib/Jingle.debug.js"></script>
+            <script src="js/lib/zepto.touch2mouse.js"></script>
+            <script src="js/lib/JChart.debug.js"></script>
+            <script src="js/YDAPI/scripts/YDAPI.js"></script>
+        
+            <script src="js/app/util.js"></script>
+            <script src="js/app/load.js"></script>
+            <script src="js/app/config.js"></script>
+            <script src="templates/build/template.js"></script>
+            <script src="js/lib/Reader.js"></script>
+            <script src="js/app/app.js"></script>
+            <script src="js/app/function.js"></script>
+            <script src="js/app/home.js"></script>
+            <script src="js/app/web.js"></script>
+            <script src="js/app/article.js"></script>
+            <script src="js/app/information.js"></script>
+            <script src="js/app/olist.js"></script>
+            <script src="js/app/office.js"></script>
+            <script src="js/app/text.js"></script>
+    </body>
+</html>

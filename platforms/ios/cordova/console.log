@@ -1,0 +1,48 @@
+2015-07-14 15:11:30.723 智慧北京[52451:1499826] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/wangkezhen/Library/Developer/CoreSimulator/Devices/9F3F424B-A7A1-48EC-8EDF-5094E0E82139/data/Containers/Data/Application/F090F822-6F1E-4AD4-B7C7-676C53D47987/Library/Cookies/Cookies.binarycookies
+2015-07-14 15:11:31.020 智慧北京[52451:1499826] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-14 15:11:31.020 智慧北京[52451:1499826] Multi-tasking -> Device: YES, App: YES
+2015-07-14 15:11:31.053 智慧北京[52451:1499826] Unlimited access to network resources
+2015-07-14 15:11:31.068 智慧北京[52451:1499826] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-07-14 15:11:31.602 智慧北京[52451:1499826] [CDVTimer][statusbar] 173.539042ms
+2015-07-14 15:11:31.602 智慧北京[52451:1499826] [CDVTimer][TotalPluginStartup] 173.850000ms
+2015-07-14 15:11:32.096 智慧北京[52451:1499826] Resetting plugins due to page load.
+2015-07-14 15:11:32.867 智慧北京[52451:1499826] Finished load of: file:///Users/wangkezhen/Library/Developer/CoreSimulator/Devices/9F3F424B-A7A1-48EC-8EDF-5094E0E82139/data/Containers/Bundle/Application/4061E05E-E356-402F-8E4B-F59612E34863/%E6%99%BA%E6%85%A7%E5%8C%97%E4%BA%AC.app/www/index.html#home_section
+2015-07-14 15:14:01.985 智慧北京[52677:1501748] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/wangkezhen/Library/Developer/CoreSimulator/Devices/9F3F424B-A7A1-48EC-8EDF-5094E0E82139/data/Containers/Data/Application/070399D2-D260-4D60-9149-AD5C41CD32D4/Library/Cookies/Cookies.binarycookies
+2015-07-14 15:14:02.186 智慧北京[52677:1501748] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-14 15:14:02.187 智慧北京[52677:1501748] Multi-tasking -> Device: YES, App: YES
+2015-07-14 15:14:02.197 智慧北京[52677:1501748] Unlimited access to network resources
+2015-07-14 15:14:02.202 智慧北京[52677:1501748] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-07-14 15:14:02.373 智慧北京[52677:1501748] [CDVTimer][statusbar] 31.248987ms
+2015-07-14 15:14:02.373 智慧北京[52677:1501748] [CDVTimer][TotalPluginStartup] 31.560957ms
+2015-07-14 15:14:02.478 智慧北京[52677:1501748] Resetting plugins due to page load.
+2015-07-14 15:14:02.825 智慧北京[52677:1501748] Finished load of: file:///Users/wangkezhen/Library/Developer/CoreSimulator/Devices/9F3F424B-A7A1-48EC-8EDF-5094E0E82139/data/Containers/Bundle/Application/CF349FFA-64A5-43C1-A626-E497D42134AF/%E6%99%BA%E6%85%A7%E5%8C%97%E4%BA%AC.app/www/index.html#home_section
+2015-07-14 15:47:54.548 智慧北京[55037:1526130] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/wangkezhen/Library/Developer/CoreSimulator/Devices/9F3F424B-A7A1-48EC-8EDF-5094E0E82139/data/Containers/Data/Application/F8A11B3E-8758-4D3A-8A17-E4438CA554A1/Library/Cookies/Cookies.binarycookies
+2015-07-14 15:47:54.666 智慧北京[55037:1526130] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-14 15:47:54.666 智慧北京[55037:1526130] Multi-tasking -> Device: YES, App: YES
+2015-07-14 15:47:54.669 智慧北京[55037:1526130] Unlimited access to network resources
+2015-07-14 15:47:54.818 智慧北京[55037:1526130] [CDVTimer][statusbar] 44.142962ms
+2015-07-14 15:47:54.819 智慧北京[55037:1526130] [CDVTimer][TotalPluginStartup] 44.324994ms
+2015-07-14 15:47:54.956 智慧北京[55037:1526130] Resetting plugins due to page load.
+2015-07-14 15:47:55.275 智慧北京[55037:1526130] Finished load of: file:///Users/wangkezhen/Library/Developer/CoreSimulator/Devices/9F3F424B-A7A1-48EC-8EDF-5094E0E82139/data/Containers/Bundle/Application/0D385E5E-1569-49FE-A29F-BDD5BA62D7CE/%E6%99%BA%E6%85%A7%E5%8C%97%E4%BA%AC.app/www/index.html#home_section
+2015-07-14 15:48:20.353 智慧北京[55251:1526746] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/wangkezhen/Library/Developer/CoreSimulator/Devices/9F3F424B-A7A1-48EC-8EDF-5094E0E82139/data/Containers/Data/Application/B71088E4-801D-45B5-8E5C-7D4D0A2B3757/Library/Cookies/Cookies.binarycookies
+2015-07-14 15:48:20.535 智慧北京[55251:1526746] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-14 15:48:20.536 智慧北京[55251:1526746] Multi-tasking -> Device: YES, App: YES
+2015-07-14 15:48:20.546 智慧北京[55251:1526746] Unlimited access to network resources
+2015-07-14 15:48:20.689 智慧北京[55251:1526746] [CDVTimer][statusbar] 23.500979ms
+2015-07-14 15:48:20.689 智慧北京[55251:1526746] [CDVTimer][TotalPluginStartup] 23.778021ms
+2015-07-14 15:48:20.850 智慧北京[55251:1526746] Resetting plugins due to page load.
+2015-07-14 15:48:21.163 智慧北京[55251:1526746] Finished load of: file:///Users/wangkezhen/Library/Developer/CoreSimulator/Devices/9F3F424B-A7A1-48EC-8EDF-5094E0E82139/data/Containers/Bundle/Application/5B25A948-2603-4E9D-B6BC-DC78EE9BA714/%E6%99%BA%E6%85%A7%E5%8C%97%E4%BA%AC.app/www/index.html#home_section

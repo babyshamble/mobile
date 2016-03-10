@@ -1,0 +1,108 @@
+#article_section {
+
+}
+
+#article-status {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    overflow: hidden;
+    z-index: -1;
+}
+
+#article-status.nocontent,
+#article-status.loading {
+    z-index: 20;
+    top: 44px;
+}
+
+#article-status .article-statu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    opacity: 0;
+    background: #FFF;
+    transition: .3s;
+    z-index: 1;
+}
+
+#article-status.nocontent #article-nocontent {
+    opacity: 1;
+    z-index: 2;
+}
+
+#article-status.loading #article-loading {
+    opacity: 1;
+    z-index: 2;
+}
+
+#article-status .la-ball-fussion>div {
+    background: #999;
+    color: #999;
+    border-color: #999;
+}
+
+#article-loading>div,
+#article-nocontent>div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+
+    margin: auto;
+    height: 20%;
+
+    color: #666;
+    text-align: center;
+}
+
+#article-loading>div {
+    left: 50%;
+    margin-left: -9px;
+}
+
+#article_section article {
+    padding: 0 20px 0px;
+    overflow: hidden;
+    bottom: 0;
+}
+
+#article_section article>div {
+    padding-bottom: 100px;
+}
+
+#article_section .article-title {
+    color: #333;
+
+    padding-bottom: 10px;
+    border-bottom: 1px solid #AAA;
+    margin-bottom: 10px;
+}
+
+#article_section .article-meta {
+    margin: 0 0 20px;
+}
+
+#article_section .article-meta span {
+    color: #999;
+    font-size: 13px;
+    line-height: 16px;
+}
+
+#article_section .article-content {
+    line-height: 24px;
+    color: #555;
+}
+
+#article_section .article-content img {
+    max-width: 100%;
+    display: block;
+    margin: 10px auto;
+}

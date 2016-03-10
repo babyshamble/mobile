@@ -1,0 +1,2 @@
+/*TMODJS:{"version":12,"md5":"9d7a39c4fbfdd79d96f34f0bdfdfd076"}*/
+template('views/department/department_other','<div class="department_title" id="department_other_title"></div> <div id="department_other_main" class="department_foucs"> </div> <div id="department_other_main_more" class="department_more"> <table> <tbody> <tr> <td> 更多 + </td> </tr> </tbody> </table> </div>');

@@ -1,0 +1,2 @@
+/*TMODJS:{"version":1,"md5":"cbbf441f8764163d6bc6d778fa1b97ce"}*/
+template('components/original/frame',' <div id="website-original"> <i id="website-original-close" class="icons-shared icons-shared-close hide"></i> <iframe id="website-original-iframe" name="website-original-iframe" frameborder="no" border="0" src="about:blank"></iframe> </div> ');

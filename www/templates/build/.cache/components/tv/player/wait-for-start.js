@@ -1,0 +1,2 @@
+/*TMODJS:{"version":1,"md5":"a20416a5e39c92542c7fc1fef2611975"}*/
+template('components/tv/player/wait-for-start','<div id="tv2-wait" class="tv2screen-hint"> <h1>请选择一篇文章开始</h1> <p>现在，请在右侧的站点导航中选取一篇文章</p> </div> ');

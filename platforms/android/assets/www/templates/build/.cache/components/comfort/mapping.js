@@ -1,0 +1,2 @@
+/*TMODJS:{"version":1,"md5":"a7df16a0f5628e654750d8b4c3a58763"}*/
+template('components/comfort/mapping','<div class="website-mapping-shownmaps"></div> <div class="website-mapping-panel"> <div class="website-mapping-current"> <h2>当前目录：</h2> <ul></ul> </div> <div class="website-mapping-other"> <h2>添加目录：</h2> <ul></ul> </div> </div> ');

@@ -1,0 +1,14 @@
+{{each lists as item}}
+<li class="list-item nothumbnail">
+    <a href="#article_section?aid={{item.id}}" data-target="section">
+        <div class="list-content"> 
+            <div class="list-title">
+               {{item.name}}
+            </div> 
+        </div> 
+       <!--  <div class="list-footprint"> 
+            <span class="list-date">2015-09-11</span> 
+        </div>  -->
+    </a>
+</li>
+{{/each}}
