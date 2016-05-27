@@ -20,7 +20,7 @@ git clone https://github.com/babyshamble/mobile.git
 ```
 - 首先你可以使用android手机直接安装mobile/android-release.apk。
 
-- 当然你也可以通过浏览器直接打开它，将mobile目录移动到您的www目录下，用浏览器访问您的www目录，直接打开mobile/www/。
+- 当然你也可以通过浏览器直接打开它，将mobile目录移动到您的www目录下，用谷歌浏览器访问您的www目录，直接打开mobile/www/，并且把浏览模式调为手机模拟器。
 
 - 如果一切顺利，您将看到如下页面。 
 	
