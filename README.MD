@@ -24,4 +24,4 @@ git clone https://github.com/babyshamble/mobile.git
 
 - 如果一切顺利，您将看到如下页面。 
 	
-![img](./1.png)
+![img](./1.jpg)
